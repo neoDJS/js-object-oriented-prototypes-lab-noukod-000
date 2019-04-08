@@ -8,9 +8,11 @@ function BoardMember(name, homeState, training){
 User.prototype.veto = function(){
   return 'No, I must disagree'
 }
+
 User.prototype.approve = function(){
   return 'You can do that!'
 }
+
 User.prototype.doCharity = function(){
   return "I like to help people."
 }
